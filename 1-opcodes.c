@@ -29,7 +29,7 @@ void _push(stack_t **doubly, unsigned int cline)
 			dprintf(2, "L%u: ", cline);
 			dprintf(2, "usage: push integer\n");
 			free_vglo();
-			exit(EXIT_FAILURE)
+			exit(EXIT_FAILURE);
 		}
 	}
 
