@@ -82,7 +82,7 @@ typedef struct instruction_s
 extern global_t vglo;
 
 
-/* opcode_instructuions*/
+/* opcode_inputs*/
 
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
