@@ -1,4 +1,8 @@
 #include "monty.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+global_t vglo;
 
 /**
  * free_vglo - frees the global variables
